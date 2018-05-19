@@ -1,0 +1,11 @@
+﻿[22:14:13.300 Info] Live Unit Testing started.
+[22:14:16.579 Info] Build completed (succeeded).
+[22:14:16.965 Error] - FatalError - System.IO.IOException: The process cannot access the file 'D:\gits6\designPatterns_CSharp_Js\Singleton\.vs\Singleton\lut\0\t\SingletonTest\bin\Debug\SingletonTest.dll' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   at Microsoft.CodeAnalysis.LiveUnitTesting.BuildManagement.BuildManagerState.CopyIfNewer(String sourcePath, String destinationPath)
+   at Microsoft.CodeAnalysis.LiveUnitTesting.BuildManagement.BuildManagerState.CopyDirectory(String source, String destination, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.LiveUnitTesting.BuildManagement.BuildManagerState.MirrorDirectories(String source, String destination, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.LiveUnitTesting.BuildManagement.BuildManagerState.SwitchBuildAndTestDirectory(Int32 nextWorkflowIdentifierToken, CancellationToken cancellationToken)
+[22:14:18.437 Info] Live Unit Testing stopped.
